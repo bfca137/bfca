@@ -1,0 +1,74 @@
+body{
+    background: url("mount1.jpg");
+ margin:0;
+ padding:0;
+ border: 20px;
+}
+
+.bright{
+    position: relative;
+    top: 82px;
+    color:white;
+    background-color:rgb(212, 12, 12);
+    display: inline-block;
+    font-size: 30px;
+    font-style: bold;
+    border-radius: 5px;
+    margin-left: 2px;
+
+}
+
+ul{
+    text-align: center;
+}
+
+ul{
+ list-style-type:none;
+ background-color:rgb(129, 110, 110);
+ color:white;
+}
+ul li{
+ display:inline-block;
+ padding:15px;
+ background-color:yellow;
+ color:red;
+ border-radius:10px;
+}
+ul li:hover{
+ background-color:green;
+ color:white;
+ padding-left:25px;
+ transition:0.40s;
+ transform: scale(1,1.1);
+ transition: .30s;
+
+}
+.dropdown{
+ display:none;
+}
+
+ul li:hover .dropdown{
+ display:block;
+ position:absolute;
+ margin-left:-14px;
+ margin-top:15px;
+}
+.dropdown ul{
+ margin:0px;
+ padding:0;
+ 
+}
+
+.dropdown ul li{
+ display:block;
+}
+.dropdown2{
+    display:none;
+}
+.dropdown ul li:hover .dropdown2{
+    display:block;
+    position:absolute;
+    margin-left:3.74cm;
+    margin-top:-32px;
+    padding:0;
+}

@@ -1,0 +1,21 @@
+h1{
+	color:green;
+	background-color:yellow; 
+	text-align:center;
+	height:85px;
+	font-size:50px;
+	line-height:85px;
+	width:50%;
+	margin-left: 25%;
+	margin-top: 50px;
+	}
+body{
+	background-color: aquamarine;
+	background-image:url(rajit.jpg);
+	background-repeat:no-repeat;
+	background-position:right 250px;
+	
+	}
+	{
+
+	}
